@@ -127,27 +127,26 @@ header {
   border-radius: 4px;
 }
 
-.theme__icon {
-  font-size: 20px;
-}
+.theme__icon { font-size: 20px; }
 
-i {
+.nav__icon {
   font-size: 30px;
   display: none;
   cursor: pointer;
   color: var(--secondary-color);
 }
 
-.nav__icons {
+.btn__toggle__icon {
   display: none;
   flex-direction: row;
   gap: 30px;
   align-items: center;
 }
 
-.nav__icons > label:first-child > i {
-  font-size: 16px;
-}
+.theme__icon {
+  font-size: 25px;
+  color: var(--secondary-color);
+  }
 
 #toggleMenu, #toggleTheme {
   display: none;
@@ -172,7 +171,7 @@ footer {
 }
 
 @media (width < 780px) {
-  .nav__icons { display: flex; }
+  .btn__toggle__icon { display: flex; }
 
   .nav__list {
     position: fixed;
