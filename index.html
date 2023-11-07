@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode Demo</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <h1 class="logo">Dark Mode Demo</h1>
+
+        <input type="checkbox" id="toggleMenu">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link active" href="#">Home</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Gallery</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+          <li class="nav__item toggleThemeIcon">
+            <label for="toggleTheme">
+              <i id="btnToggleIcon" class='bx bxs-sun theme__icon'></i>
+            </label>
+            <input type="checkbox" id="toggleTheme">
+          </li>
+        </ul>
+
+        <div class="nav__icons">
+          <label for="toggleTheme">
+            <i id="btnToggleIcon" class='bx bxs-sun'></i>
+          </label>
+          <input type="checkbox" id="toggleTheme">
+  
+          <label for="toggleMenu" class="btnToggle">
+            <i class='bx bx-menu-alt-right'></i>
+          </label>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="content__structure">
+        <aside class="col__1">
+          <section class="widget">...</section>
+          <section class="widget">...</section>
+        </aside>
+
+        <section class="col__2">
+          <article class="article__post">...</article>
+          <article class="article__post">...</article>
+          <article class="article__post">...</article>
+          <article class="article__post">...</article>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      Copyright &copy;. All rights reserved. By <a href="#" class="footer-link">Coalsdev</a>
+    </footer>
+  </body>
+</html>
