@@ -146,7 +146,8 @@ header {
 .theme__icon {
   font-size: 25px;
   color: var(--secondary-color);
-  }
+  cursor: pointer;
+}
 
 #toggleMenu, #toggleTheme {
   display: none;
